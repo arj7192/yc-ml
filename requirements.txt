@@ -1,0 +1,4 @@
+nltk
+flask
+google-api-python-client
+textblob
