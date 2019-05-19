@@ -52,6 +52,6 @@ def get_sa_api(video_id):
 if __name__ == '__main__':
     app.run(
         host="0.0.0.0",
-        port=int("8089"),
+        port=int("8087"),
         debug=True
     )
