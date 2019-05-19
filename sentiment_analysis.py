@@ -12,7 +12,6 @@ def get_sentiment_analysis(list_of_comments):
     sid = SentimentIntensityAnalyzer()
     scores = {'compound': [], 'neg': [], 'neu': [], 'pos': []}
     for sentence in processed_list_of_comments:
-        print(sentence)
         ss = sid.polarity_scores(sentence)
         for k in sorted(ss):
             scores[k] += [ss[k]]
